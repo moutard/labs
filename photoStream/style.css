@@ -1,0 +1,20 @@
+body {
+  background: #999
+}
+
+.items {
+  height: 200px;    /* should be the value of the height */
+  overflow: hidden; /* important */
+}
+
+.items img {
+  height: 200px;          /* to a better display */
+  margin: 0 10px 0 0;     /* choose the value you want */
+  float:left;             /* important */
+ 
+  -webkit-transition: margin-left 1s ease-in; 
+ /* use parameters to customize you transition */
+
+}
+
+
