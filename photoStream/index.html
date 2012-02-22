@@ -2,7 +2,7 @@
 <html>
 
   <head>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="transition.js"></script>
 
 			  <link href="style.css" rel="stylesheet" type="text/css">
@@ -16,9 +16,9 @@
 
         </header>
 
-        
+
     		<div class="items ">
-          <img src="http://farm2.staticflickr.com/1028/1389775699_6389630398.jpg" 
+          <img src="http://farm2.staticflickr.com/1028/1389775699_6389630398.jpg"
           alt="Orsay" />
           <img src="http://farm3.staticflickr.com/2367/1799905815_1099687d90.jpg"
           alt="Orsay" />
@@ -29,15 +29,15 @@
     		</div>
 
     </body>
-      
-      
+
+
       <script type="text/javascript">
         // Add an event listener to pictures that are already on the page
-        $('.items img').bind('webkitTransitionEnd', 
+        $('.items img').bind('webkitTransitionEnd',
           function (e) {
           $('.items img:first').remove();
         }
-      ); 
+      );
       </script>
 </html>
 
