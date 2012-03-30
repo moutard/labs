@@ -17,15 +17,23 @@
         </header>
 
 
-    		<div class="items ">
+        <div class="items ">
+          <div class="hublot">
           <img src="http://farm2.staticflickr.com/1028/1389775699_6389630398.jpg"
           alt="Orsay" />
+          </div>
+          <div class="hublot">
           <img src="http://farm3.staticflickr.com/2367/1799905815_1099687d90.jpg"
           alt="Orsay" />
+        </div>
+        <div class="hublot">
        		<img src="http://farm2.staticflickr.com/1088/1391834001_a923c71555.jpg"
           alt="Orsay" />
+        </div>
+        <div class="hublot">
           <img src="http://farm2.staticflickr.com/1260/646428920_3114d2bf59.jpg"
           alt="Orsay"/>
+        </div>
     		</div>
 
     </body>
@@ -33,11 +41,6 @@
 
       <script type="text/javascript">
         // Add an event listener to pictures that are already on the page
-        $('.items img').bind('webkitTransitionEnd',
-          function (e) {
-          $('.items img:first').remove();
-        }
-      );
       </script>
 </html>
 

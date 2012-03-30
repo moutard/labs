@@ -6,13 +6,18 @@ body {
   height: 200px;    /* should be the value of the height */
   overflow: hidden; /* important */
 }
+.items .hublot {
+  float:left;
+  width: 200px;
+  height: 200px;
+  margin: 0 10px 0 0; /* choose the value you want */
+  overflow: hidden;
+}
+.items .hublot img {
+  min-height: 200px; /* to avoid white space */
+  /*float:left;             /* important */
 
-.items img {
-  height: 200px;          /* to a better display */
-  margin: 0 10px 0 0;     /* choose the value you want */
-  float:left;             /* important */
-
-  -webkit-transition: margin-left 1s ease-in;
+ -webkit-transition: margin-left 1s ease-in; */
  /* use parameters to customize you transition */
 
 }
