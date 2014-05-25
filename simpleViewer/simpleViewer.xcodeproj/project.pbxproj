@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/rmoutard/Downloads/libQGLViewer-2.5.2/examples/simpleViewer\ -f\ \'simpleViewer.xcodeproj/qt_makeqmake.mak\'";
+		};
+		5E7B53310B4D3AC00C087F62 = {
+			isa = PBXFileReference;
+			name = "simpleViewer.cpp";
+			path = "simpleViewer.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0522B9F0C4459F529C9095B5 = {
+			fileRef = "5E7B53310B4D3AC00C087F62";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		33E4118023374209925BBEB2 = {
+			isa = PBXFileReference;
+			name = "qglviewer.icns";
+			path = "../../../../Library/Frameworks/QGLViewer.framework/Versions/2/Headers/qglviewer.icns";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		185CADAA42B20B2D9ED40FD8 = {
+			fileRef = "33E4118023374209925BBEB2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4682F76AC685745750D77659 = {
+			isa = PBXFileReference;
+			name = "simpleViewer.h";
+			path = "simpleViewer.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6CC60DC938B57E50B5518B4F = {
+			isa = PBXFileReference;
+			name = "simpleViewer.pro";
+			path = "simpleViewer.pro";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"4682F76AC685745750D77659");
+			name = "Headers";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		BFA3A29D17FD123C907B6E35 = {
+			isa = PBXGroup;
+			children = (
+				"DCB318ABE7A96AA736975C2A");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		DCB318ABE7A96AA736975C2A = {
+			isa = PBXGroup;
+			children = (
+				"BAC0ABD9910466047906DB39");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		BAC0ABD9910466047906DB39 = {
+			isa = PBXGroup;
+			children = (
+				"3193AB1CB3E496721F2C8050");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		3193AB1CB3E496721F2C8050 = {
+			isa = PBXGroup;
+			children = (
+				"AA79CE446A50A0AADA97D880");
+			name = "..";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		AA79CE446A50A0AADA97D880 = {
+			isa = PBXGroup;
+			children = (
+				"9BC08BD83DBB8B345DD0D7A6");
+			name = "Library";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		9BC08BD83DBB8B345DD0D7A6 = {
+			isa = PBXGroup;
+			children = (
+				"3D957B7B10B1DDA429C8F926");
+			name = "Frameworks";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		3D957B7B10B1DDA429C8F926 = {
+			isa = PBXGroup;
+			children = (
+				"6BD8D2A048C6EE92A74056A1");
+			name = "QGLViewer.framework";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		6BD8D2A048C6EE92A74056A1 = {
+			isa = PBXGroup;
+			children = (
+				"DDA25121232D59EEDF2BCD36");
+			name = "Versions";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		DDA25121232D59EEDF2BCD36 = {
+			isa = PBXGroup;
+			children = (
+				"099C7615D632810D1B877860");
+			name = "2";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		099C7615D632810D1B877860 = {
+			isa = PBXGroup;
+			children = (
+				"33E4118023374209925BBEB2");
+			name = "Headers";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"5E7B53310B4D3AC00C087F62",
+				"118FCBAABA162BA17933C789",
+				"BFA3A29D17FD123C907B6E35");
+			name = "Sources";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"6CC60DC938B57E50B5518B4F");
+			name = "Sources [qmake]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"0522B9F0C4459F529C9095B5",
+				"2B093CA6F071B023A473CED0");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"0522B9F0C4459F529C9095B5",
+				"2B093CA6F071B023A473CED0");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/rmoutard/Downloads/libQGLViewer-2.5.2/examples/simpleViewer\ -f\ \'simpleViewer.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"0522B9F0C4459F529C9095B5",
+				"2B093CA6F071B023A473CED0");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		F2BF529B64751965599AFD38 = {
+			isa = PBXFileReference;
+			name = "QGLViewer.framework";
+			path = "/Library/Frameworks/QGLViewer.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15B38E101E74B81B3BF81B07 = {
+			fileRef = "F2BF529B64751965599AFD38";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DA18A6831232F53228631AD1 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		BCEF71E1EDFB18DA77DC750B = {
+			fileRef = "DA18A6831232F53228631AD1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6766F86E49E9C8701C8E637 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0C6D4628EE0B0D1479A20551 = {
+			fileRef = "C6766F86E49E9C8701C8E637";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8EE92F8FA333C9E415C5B34E = {
+			isa = PBXFileReference;
+			name = "QtXml.framework";
+			path = "/Library/Frameworks/QtXml.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		C2643FEB592DBFD1429BE4E1 = {
+			fileRef = "8EE92F8FA333C9E415C5B34E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C374004D45E01156F931B37D = {
+			isa = PBXFileReference;
+			name = "QtOpenGL.framework";
+			path = "/Library/Frameworks/QtOpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		450A0D11527AF164AEFE7377 = {
+			fileRef = "C374004D45E01156F931B37D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"F2BF529B64751965599AFD38",
+				"DA18A6831232F53228631AD1",
+				"C6766F86E49E9C8701C8E637",
+				"8EE92F8FA333C9E415C5B34E",
+				"7BC2E65A5E699A5E5D834CA2",
+				"C374004D45E01156F931B37D",
+				"9B36DA7E32F0304E780E7972");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"15B38E101E74B81B3BF81B07",
+				"BCEF71E1EDFB18DA77DC750B",
+				"0C6D4628EE0B0D1479A20551",
+				"C2643FEB592DBFD1429BE4E1",
+				"069D05B0128AE5DC7EE31738",
+				"450A0D11527AF164AEFE7377",
+				"501667F26B3C1FF6767A7C12");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+				1C6932A6B22EDCC9271762C0,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "simpleViewer";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		766939502F471C332A222B74 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "simpleViewer.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"766939502F471C332A222B74");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		FFB1210637604669B7E27B88 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/rmoutard/Downloads/libQGLViewer-2.5.2/examples/simpleViewer";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-F/Users/rmoutard/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "simpleViewer";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "766939502F471C332A222B74";
+			shouldUseHeadermap = 1;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string>qglviewer.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+ 	<key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>simpleViewer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.simpleViewer</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "simpleViewer";
+			productName = "simpleViewer";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		4B72B24813252891014BCF61 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "simpleViewer";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/include/QtOpenGL",
+					"/Library/Frameworks/QtXml.framework/Versions/4/Headers",
+					"/usr/include/QtXml",
+					"/usr/include",
+					"../../../../Library/Frameworks/QGLViewer.framework/Versions/2/Headers",
+					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers",
+					".moc",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks",
+					"/Users/rmoutard/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_NO_KEYWORDS",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_NO_KEYWORDS",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-F/Users/rmoutard/Library/Frameworks");
+				ARCHS = "x86_64";
+				OBJROOT = ".obj/";
+			};
+			name = "Debug";
+		};
+		BEC09A62E69C3553534FF35E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "simpleViewer";
+				PRODUCT_NAME = "simpleViewer";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "simpleViewer";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		D70590BEB531B51029F711BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "simpleViewer";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/include/QtOpenGL",
+					"/Library/Frameworks/QtXml.framework/Versions/4/Headers",
+					"/usr/include/QtXml",
+					"/usr/include",
+					"../../../../Library/Frameworks/QGLViewer.framework/Versions/2/Headers",
+					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers",
+					".moc",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks",
+					"/Users/rmoutard/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_NO_KEYWORDS",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_NO_KEYWORDS",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-F/Users/rmoutard/Library/Frameworks");
+				ARCHS = "x86_64";
+				OBJROOT = ".obj/";
+			};
+			name = "Release";
+		};
+		8C7174830A1E4DCBA0332EC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "simpleViewer";
+				PRODUCT_NAME = "simpleViewer";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "simpleViewer";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		CC82A9286117DFED018F418F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"4B72B24813252891014BCF61",
+				"D70590BEB531B51029F711BB");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		17B3380A4D6A7D415E7F2E1E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"BEC09A62E69C3553534FF35E",
+				"8C7174830A1E4DCBA0332EC1");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "CC82A9286117DFED018F418F";
+			projectDirPath = "";
+			targets = (
+				"FFB1210637604669B7E27B88");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
