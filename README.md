@@ -1,6 +1,9 @@
-== Labs ===
+Labs
+====
 
-= Warnings =
+Warnings
+-------
+
 I used this repo to save drafts, personnal experiments, or pieces of code I
 would like to keep.
 As this repo is a sandbox for testing new technologies, new libraries so consider that:
